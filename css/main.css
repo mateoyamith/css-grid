@@ -3,6 +3,7 @@
 /*Quitamos estilos del navegador por default*/
 
 body {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -99,6 +100,19 @@ nav .profile-link a {
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
-    color: black;
+    color: white;
     text-align: center;
+}
+
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background: #47cfac;
+    display: grid;
+    align-items: center;
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
 }
